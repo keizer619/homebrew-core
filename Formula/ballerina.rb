@@ -24,7 +24,7 @@ class Ballerina < Formula
 
     bin.install "bin/bal"
     libexec.install Dir["*"]
-    bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))
+    bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("11"))
   end
 
   test do
