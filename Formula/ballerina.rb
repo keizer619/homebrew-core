@@ -14,7 +14,7 @@ class Ballerina < Formula
     sha256 cellar: :any_skip_relocation, all: "0abb34e7a2f8481276cecd2ac6495edf2f4096a7172859bc5beedae0ffd423e6"
   end
 
-  depends_on "openjdk@8"
+  depends_on "openjdk@11"
 
   def install
     # Remove Windows files
